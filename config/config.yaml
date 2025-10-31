@@ -1,0 +1,25 @@
+# Application Configuration
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: logs/metronome.log
+
+# Default Metronome Settings
+metronome:
+  default_bpm: 120
+  default_time_signature: "4/4"
+  min_bpm: 20
+  max_bpm: 400
+
+# Audio Settings
+audio:
+  sample_rate: 44100
+  buffer_size: 512
+  default_volume: 1.0
+
+# UI Settings
+ui:
+  window_width: 600
+  window_height: 500
+  theme: clam
